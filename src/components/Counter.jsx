@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function Counter(){
     const [contador, setContador] = useState(0);
+    const [letras, setLetras] = useState("")
 
     function suma(){
         setContador(contador+1)
@@ -17,6 +18,8 @@ export default function Counter(){
 
     return (
         <>
+            <input type="text" />
+            <h1>Cadena de caracteres: {letras}</h1>
             <p>Contador: {contador}</p>
             <button onClick={suma}>Suma</button>
             <button onClick={resta}>Resta</button>
