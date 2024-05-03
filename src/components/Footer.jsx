@@ -2,7 +2,7 @@ function Footer() {
     return ( 
         <>
         <div className="footer">
-            <h1>Gorriau</h1>
+            <br /><h3>Todos los derechos reservados</h3>
         </div>
         </>
 
