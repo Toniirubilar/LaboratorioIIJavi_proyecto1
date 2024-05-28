@@ -11,6 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <Principal />
     <Footer />
-    <Counter />
+    {/* <Counter /> */}
   </React.StrictMode>,
 )
